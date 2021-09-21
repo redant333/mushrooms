@@ -3,18 +3,21 @@
         "name": "Test Name 1",
         "location": "Test location 1",
         "date": "Test date 1",
-        "image": "images/7LIW2TG.jpg"
+        "image": "images/7LIW2TG.jpg",
+        "thumbnail": "thumbnails/shaggy_mane.jpg"
     },
     {
         "name": "Test Name 2",
         "location": "Test location 2",
         "date": "Test date 2",
-        "image": "images/msH5Zky.jpg"
+        "image": "images/msH5Zky.jpg",
+        "thumbnail": "thumbnails/amanita.jpg"
     },
     {
         "name": "Test Name 3",
         "location": "Test location 3",
         "date": "Test date 3",
-        "image": "images/oYqiS4h.jpg"
+        "image": "images/oYqiS4h.jpg",
+        "thumbnail": "thumbnails/inkcaps.jpg"
     }
 ]

@@ -5,7 +5,7 @@ function createEntryNode(entryJson) {
     entryNode.querySelector(".data-name").innerText = entryJson.name;
     entryNode.querySelector(".data-location").innerText = entryJson.location;
     entryNode.querySelector(".data-date").innerText = entryJson.date;
-    entryNode.querySelector(".data-image").src = entryJson.image;
+    entryNode.querySelector(".data-thumbnail").src = entryJson.thumbnail;
 
     return entryNode;
 }
