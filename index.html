@@ -24,7 +24,7 @@
 <body>
 
 <template id="id-entryTemplate">
-    <div class="border border-2 border-primary rounded-extralg d-inline-block p-3 mb-1 bg-lightgray">
+    <div class="border border-2 border-primary rounded-extralg d-inline-block p-3 mb-2 ml-1 mr-1 bg-lightgray">
         <img class="data-thumbnail rounded-circle mb-3">
         <p>
             <i class="fas fa-file-alt"></i>
@@ -55,8 +55,10 @@
     </div>
 </nav>
 
-<!-- TODO Make better alignment of children -->
-<div id="id-mainContainer" class="container"></div>
+<div class="container">
+  <div class="row d-flex justify-content-center" id="id-mainContainer">
+  </div>
+</div>
 
 <script>
     loadData("./data.json", "id-mainContainer");
