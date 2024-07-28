@@ -6,7 +6,7 @@
     "process-bootstrap": "./node_modules/sass/sass.js scss/custom_bootstrap.scss:css/custom_bootstrap.css"
   },
   "devDependencies": {
-    "bootstrap": "4.6.0",
+    "bootstrap": "5.3.0",
     "http-server": "^14.1.1",
     "sass": "^1.77.8"
   }
