@@ -13,6 +13,7 @@ body {
     background-color: rgb(249, 250, 225) !important;
 }
 
-.rounded-extralg{
-    border-radius:.5rem !important
+.mushroom-card {
+    border-radius:.5rem !important;
+    background-image: url("/images/resources/back.png");
 }

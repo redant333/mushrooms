@@ -1,7 +1,9 @@
-$body-bg: rgb(252, 255, 194);
+@import "../node_modules/bootstrap/scss/functions";
+
+$body-bg: #ffefcb;
 
 $primary: #224910;
 $success: #0ab413;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-
+@import "../node_modules/bootstrap/scss/mixins";
