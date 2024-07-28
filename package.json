@@ -1,0 +1,13 @@
+{
+"name": "mushrooms",
+  "version": "v0.0.0",
+  "scripts": {
+    "serve": "http-server . -p 8000 -a 127.0.0.1 -c-1",
+    "process-bootstrap": "./node_modules/sass/sass.js scss/custom_bootstrap.scss:css/custom_bootstrap.css"
+  },
+  "devDependencies": {
+    "bootstrap": "4.6.0",
+    "http-server": "^14.1.1",
+    "sass": "^1.77.8"
+  }
+}
