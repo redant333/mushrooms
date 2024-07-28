@@ -16,4 +16,15 @@ body {
 .mushroom-card {
     border-radius:.5rem !important;
     background-image: url("/images/resources/back.png");
+    width:fit-content;
+    justify-self: center;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 310px);
+    padding: initial;
+    justify-content: center;
 }
