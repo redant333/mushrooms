@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="/css/custom_bootstrap.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/loader.js"></script>
-    <!-- Icon settings -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
-    <link rel="manifest" href="/resources/icons/site.webmanifest">
-    <link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#132809">
-    <link rel="shortcut icon" href="/resources/icons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#132809">
-    <meta name="msapplication-config" content="/resources/icons/browserconfig.xml">
-    <meta name="theme-color" content="#132809">
-    <!-- End icon settings -->
-    <title>Mushrooms</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/custom_bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/loader.js"></script>
+  <!-- Icon settings -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
+  <link rel="manifest" href="/resources/icons/site.webmanifest">
+  <link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#132809">
+  <link rel="shortcut icon" href="/resources/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#132809">
+  <meta name="msapplication-config" content="/resources/icons/browserconfig.xml">
+  <meta name="theme-color" content="#132809">
+  <!-- End icon settings -->
+  <title>Mushrooms</title>
 </head>
+
 <body>
 
-<template id="id-entryTemplate">
+  <template id="id-entryTemplate">
     <div class="mushroom-card">
-        <img class="data-thumbnail mushroom-thumbnail">
-        <p class="mushroom-title data-title"></p>
-        <p class="mushroom-sub-line data-sub-line-1"></p>
-        <p class="mushroom-sub-line data-sub-line-2"></p>
+      <img class="data-thumbnail mushroom-thumbnail">
+      <p class="mushroom-title data-title"></p>
+      <p class="mushroom-sub-line data-sub-line-1"></p>
+      <p class="mushroom-sub-line data-sub-line-2"></p>
     </div>
-</template>
+  </template>
 
-<nav class="navbar pt-3 pb-1 mb-3">
+  <nav class="navbar pt-3 pb-1 mb-3">
     <div class="container-fluid">
       <a class="navbar-brand p-0" href="#">
         <img src="/resources/images/logo.svg" alt="Mushrooms" class="mushroom-navbar-logo">
@@ -43,24 +46,25 @@
         </li>
       </ul>
     </div>
-</nav>
+  </nav>
 
-<div class="disclaimer">
+  <div class="disclaimer">
     This site is maintained by two hobbyists.
     While we try to have the correct information here, we are not mycologists and will sooner or later make a mistake.
-    <br/>
+    <br />
     Don't treat this as a reliable resource for mushroom identification!
     <strong>Stay safe and don't die</strong> from mushroom poisoning.
-</div>
-
-<div class="container-fluid">
-  <div class="main-container" id="id-mainContainer">
   </div>
-</div>
+
+  <div class="container-fluid">
+    <div class="main-container" id="id-mainContainer">
+    </div>
+  </div>
 
 
-<script>
+  <script>
     loadData("./data/data.json", "id-mainContainer");
-</script>
+  </script>
 </body>
+
 </html>
