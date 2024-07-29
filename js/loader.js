@@ -1,3 +1,5 @@
+"use strict";
+
 function createEntryNode(entryJson) {
     const entryTemplate = document.getElementById("id-entryTemplate");
     const entryNode = entryTemplate.content.cloneNode(true);
