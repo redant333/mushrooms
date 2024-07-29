@@ -1,6 +1,6 @@
 @font-face {
     font-family: PlayfairDisplay;
-    src: url("/PlayfairDisplaySC-Regular.ttf");
+    src: url("/resources/fonts/PlayfairDisplaySC-Regular.ttf");
 }
 
 .mushroom-navbar-logo {
@@ -15,7 +15,7 @@
 .mushroom-card {
     border-radius: 9px;
     border: rgb(54, 40, 12) solid 2px;
-    background-image: url("/images/resources/back.png");
+    background-image: url("/resources/images/back.png");
     width: fit-content;
     justify-self: center;
     padding: 16px;
