@@ -1,5 +1,5 @@
 @font-face {
-    font-family: PlayfairDisplay;
+    font-family: PlayfairDisplaySC;
     src: url("/resources/fonts/PlayfairDisplaySC-Regular.ttf");
 }
 
@@ -20,7 +20,6 @@
     justify-self: center;
     padding: 16px;
     margin-bottom: 16px;
-    font-family: "PlayfairDisplay";
     color: rgb(54, 40, 12);
     padding: 16px;
 }
