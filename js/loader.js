@@ -3,9 +3,9 @@ function createEntryNode(entryJson) {
     const entryNode = entryTemplate.content.cloneNode(true);
     const dataDir = "/data/";
 
-    entryNode.querySelector(".data-name").innerText = entryJson.name;
-    entryNode.querySelector(".data-location").innerText = entryJson.location;
-    entryNode.querySelector(".data-date").innerText = entryJson.date;
+    entryNode.querySelector(".data-title").innerText = entryJson["name-lat"];
+    entryNode.querySelector(".data-sub-line-1").innerText = entryJson["name-eng"];
+    entryNode.querySelector(".data-sub-line-2").innerText = entryJson["name-swe"];
     entryNode.querySelector(".data-thumbnail").src = dataDir + entryJson.thumbnail;
 
     return entryNode;
