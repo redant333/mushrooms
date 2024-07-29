@@ -51,3 +51,16 @@
     padding: initial;
     justify-content: center;
 }
+
+.disclaimer {
+    background-image: url("/resources/images/back.png");
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    margin-bottom: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: solid 2px rgb(54, 40, 12);
+    border-radius: 9px;
+}
