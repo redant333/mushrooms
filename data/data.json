@@ -3,63 +3,81 @@
         "name-lat": "Test Name 1",
         "name-eng": "Test location 1",
         "name-swe": "Test date 1",
-        "image": "images/7LIW2TG.jpg",
-        "thumbnail": "thumbnails/shaggy_mane.jpg"
+        "thumbnail": "shaggy_mane.jpg",
+        "images": [
+            ["7LIW2TG.jpg", "2024-01-01"]
+        ]
     },
     {
         "name-lat": "Test Name 2",
         "name-eng": "Test location 2",
         "name-swe": "Test date 2",
-        "image": "images/msH5Zky.jpg",
-        "thumbnail": "thumbnails/amanita.jpg"
+        "thumbnail": "amanita.jpg",
+        "images": [
+            ["msH5Zky.jpg", "2024-01-01"]
+        ]
     },
     {
         "name-lat": "Coprinus Disseminatus",
         "name-eng": "Fly Agaric",
         "name-swe": "Röd Flugsvamp",
-        "image": "images/msH5Zky.jpg",
-        "thumbnail": "thumbnails/amanita.jpg"
+        "thumbnail": "amanita.jpg",
+        "images": [
+            ["msH5Zky.jpg", "2024-01-01"]
+        ]
     },
     {
         "name-lat": "Test Name 2",
         "name-eng": "Test location 2",
         "name-swe": "Test date 2",
-        "image": "images/msH5Zky.jpg",
-        "thumbnail": "thumbnails/amanita.jpg"
+        "thumbnail": "amanita.jpg",
+        "images": [
+            ["msH5Zky.jpg", "2024-01-01"]
+        ]
     },
     {
         "name-lat": "Test Name 2",
         "name-eng": "Test location 2",
         "name-swe": "Test date 2",
-        "image": "images/msH5Zky.jpg",
-        "thumbnail": "thumbnails/amanita.jpg"
+        "thumbnail": "amanita.jpg",
+        "images": [
+            ["msH5Zky.jpg", "2024-01-01"]
+        ]
     },
     {
         "name-lat": "Test Name 2",
         "name-eng": "Test location 2",
         "name-swe": "Test date 2",
-        "image": "images/msH5Zky.jpg",
-        "thumbnail": "thumbnails/amanita.jpg"
+        "thumbnail": "amanita.jpg",
+        "images": [
+            ["msH5Zky.jpg", "2024-01-01"]
+        ]
     },
     {
         "name-lat": "Test Name 2",
         "name-eng": "Test location 2",
         "name-swe": "Test date 2",
-        "image": "images/msH5Zky.jpg",
-        "thumbnail": "thumbnails/amanita.jpg"
+        "thumbnail": "amanita.jpg",
+        "images": [
+            ["msH5Zky.jpg", "2024-01-01"]
+        ]
     },
     {
         "name-lat": "Test Name 2",
         "name-eng": "Test location 2",
         "name-swe": "Test date 2",
-        "image": "images/msH5Zky.jpg",
-        "thumbnail": "thumbnails/amanita.jpg"
+        "thumbnail": "amanita.jpg",
+        "images": [
+            ["msH5Zky.jpg", "2024-01-01"]
+        ]
     },
     {
         "name-lat": "Test Name 3",
         "name-eng": "Test location 3",
         "name-swe": "Test date 3",
-        "image": "images/oYqiS4h.jpg",
-        "thumbnail": "thumbnails/inkcaps.jpg"
+        "thumbnail": "inkcaps.jpg",
+        "images": [
+            ["oYqiS4h.jpg", "2024-01-01"]
+        ]
     }
 ]

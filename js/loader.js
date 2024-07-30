@@ -1,14 +1,15 @@
 "use strict";
 
 function createEntryNode(entryJson) {
+    const thumbnailsDir = "/data/thumbnails/";
+
     const entryTemplate = document.getElementById("id-entryTemplate");
     const entryNode = entryTemplate.content.cloneNode(true);
-    const dataDir = "/data/";
 
     entryNode.querySelector(".data-title").innerText = entryJson["name-lat"];
     entryNode.querySelector(".data-sub-line-1").innerText = entryJson["name-eng"];
     entryNode.querySelector(".data-sub-line-2").innerText = entryJson["name-swe"];
-    entryNode.querySelector(".data-thumbnail").src = dataDir + entryJson.thumbnail;
+    entryNode.querySelector(".data-thumbnail").src = thumbnailsDir + entryJson.thumbnail;
 
     return entryNode;
 }
