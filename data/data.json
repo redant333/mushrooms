@@ -1,2 +1,11 @@
 [
+    {
+        "name-lat": "Cantharellus cibarius",
+        "name-eng": "Chantarelle",
+        "name-swe": "Kantarell",
+        "thumbnail": "kantarell.jpg",
+        "images": [
+            "kantarell.jpg", "2024-08-03"
+        ]
+    }
 ]
