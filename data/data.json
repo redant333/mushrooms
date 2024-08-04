@@ -7,5 +7,14 @@
         "images": [
             "kantarell.jpg", "2024-08-03"
         ]
+    },
+    {
+        "name-lat": "Amanita spissa",
+        "name-eng": "-",
+        "name-swe": "Gråfotad flugsvamp",
+        "thumbnail": "spissa.jpg",
+        "images": [
+            "spissa.jpg", "2024-08-03"
+        ]
     }
 ]
