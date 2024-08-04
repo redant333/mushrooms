@@ -1,7 +1,7 @@
 "use strict";
 
 function createEntryNode(entryJson) {
-    const thumbnailsDir = "/data/thumbnails/";
+    const thumbnailsDir = "/mushrooms/data/thumbnails/";
 
     const entryTemplate = document.getElementById("id-entryTemplate");
     const entryNode = entryTemplate.content.cloneNode(true);
